@@ -8,7 +8,7 @@ The processing program takes the ADC values from the pulse sensor and plots the 
 It also calculates and shows the bpm (beats per minute) using a very crude algorithm
 and running average.
  
-The Arduino sketch in this project for code to read the ADC value on the Arduino.
+The Arduino sketch reads the ADC value on the Arduino.
 The sketch blinks the user LED for each pulse,
 (the threshold is set at 500 out of 1024 for the 10 bit adc value,
 you may need to adjust this to get good results).
@@ -20,14 +20,13 @@ http://pulsesensor.com/
 
 A screenshot of the output is also provided.
 
-
 ## How to use
 Simple program the Arduino with the Arduino sketch and run the processing sketch.
 
 Hookup:
-+ -> 3.3V
-- -> GND
-S -> A0
+Plus (+) -> 3.3V
+Minus (-) -> GND
+Signal (S) -> A0
 
 NOTE: THIS CODE ASSUMES YOUR ARDUINO/MICROCONTROLLER IS THE FIRST LISTED COM PORT!
 IF THIS IS NOT THE CASE YOU NEED TO CHANGE THE CHOSEN COM PORT:
