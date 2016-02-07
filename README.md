@@ -24,9 +24,9 @@ A screenshot of the output is also provided.
 Simple program the Arduino with the Arduino sketch and run the processing sketch.
 
 Hookup:
-Plus (+) -> 3.3V
-Minus (-) -> GND
-Signal (S) -> A0
+* Plus (+) -> 3.3V
+* Minus (-) -> GND
+* Signal (S) -> A0
 
 NOTE: THIS CODE ASSUMES YOUR ARDUINO/MICROCONTROLLER IS THE FIRST LISTED COM PORT!
 IF THIS IS NOT THE CASE YOU NEED TO CHANGE THE CHOSEN COM PORT:
