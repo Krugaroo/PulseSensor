@@ -4,7 +4,7 @@
 * Brief:
 * 
 * This example sketch shows how to use the Pulse Sensor. 
-* The sketch blinks the user id for each pulse,
+* The sketch blinks the user LED for each pulse,
 * (the threshold is set at 500 out of 1024 for the 10 bit adc value,
 * you may need to adjust this to get good results).
 * 
